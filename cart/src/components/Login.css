@@ -1,0 +1,95 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000;
+  }
+  
+  .login-box {
+    position: relative;
+    width: 22.2rem;
+  }
+  
+  .form-container {
+    border: 1px solid hsla(248, 94%, 32%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(6, 6, 132, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+  }
+  
+  .opacity {
+    opacity: 0.6;
+  }
+  
+  .error-alert {
+    background-color: #aeddf0;
+    border: 1px solid #b5d3fb;
+    color: #e53e3e;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .circle-one {
+    width: 8rem;
+    height: 8rem;
+    background-color: #0e488f;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-45%, -45%);
+  }
+  
+  .circle-two {
+    width: 8rem;
+    height: 8rem;
+    background-color: #0f3460;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(45%, 45%);
+  }
+  
+  .register-forget {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: rgb(31, 70, 197);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+  
+  button:hover {
+    background-color: rgb(14, 2, 36);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+  input {
+    display: block;
+    padding: 10.5px;
+    width: 100%;
+    margin: 1rem 0;
+    color: black;
+    outline: none;
+    background-color: #9191911f;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    backdrop-filter: blur(15px);
+  }
+  
+  input:focus {
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+  }
+  
